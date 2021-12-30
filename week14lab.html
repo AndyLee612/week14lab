@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<p id="console"></p>
+	<script type="text/javascript">
+		var sentence = prompt('Enter a sentence!');
+		var charsearch = prompt('Enter a char to search!');
+		var pos1= sentence.indexOf(charsearch);
+		var pos2 = sentence.lastIndexOf(charsearch);
+		var afterthree = sentence.lastIndexOf(charsearch,3);
+		document.getElementById("console").innerHTML=pos1+" "+lastposition+" "+pos2;
+	</script>
+
+</body>
+</html>
